@@ -1,3 +1,11 @@
 node_modules
 dist
 .DS_Store
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Voltagent
+.voltagent/
