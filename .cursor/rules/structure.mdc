@@ -1,0 +1,39 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+This project is a client / server implementation of VoltAgent found here https://github.com/voltagent/voltagent.
+
+VoltAgent is an open-source TypeScript framework that acts as this essential toolkit. It simplifies the development of AI agent applications by providing modular building blocks, standardized patterns, and abstractions. Whether you're creating chatbots, virtual assistants, automated workflows, or complex multi-agent systems, VoltAgent handles the underlying complexity, allowing you to focus on defining your agents' capabilities and logic.
+
+Instead of building everything from scratch, VoltAgent provides ready-made, modular building blocks:
+
+    Core Engine (@voltagent/core): The heart of VoltAgent, providing fundamental capabilities for your AI agents Define individual agents with specific roles, tools, and memory.
+    Multi-Agent Systems: Architect complex applications by coordinating multiple specialized agents using Supervisors.
+    Extensible Packages: Enhance functionality with packages like @voltagent/voice for voice interactions.
+    Tooling & Integrations: Equip agents with tools to connect to external APIs, databases, and services, enabling them to perform real-world tasks. Supports the Model Context Protocol (MCP) for standardized tool interactions.
+    Data Retrieval & RAG: Implement specialized retriever agents for efficient information fetching and Retrieval-Augmented Generation (RAG).
+    Memory: Enable agents to remember past interactions for more natural and context-aware conversations.
+    LLM Compatibility: Works with popular AI models from OpenAI, Google, Anthropic, and more, allowing easy switching.
+    Developer Ecosystem: Includes helpers like create-voltagent-app, @voltagent/cli, and the visual VoltAgent Console for quick setup, monitoring, and debugging.
+
+In essence, VoltAgent helps developers build sophisticated AI applications faster and more reliably, avoiding repetitive setup and the limitations of simpler tools.
+
+The `server/` folder contains the VoltAgent implementation and acts as the backend.
+The `client/` folder contains a Vite React Typescript Project and acts as the frontend. 
+
+Both need to run as seperate processes. 
+
+## More info on `server/`
+Keep all of the VoltAgent code here. If you need help look in [volt-agent-docs.mdc](mdc:.cursor/rules/volt-agent-docs.mdc) to start with. 
+
+## More info on `client/`
+Keep all of the frontend React Typescript code here. 
+
+- Always use PNPM as the package manager. 
+
+Please use these packages: 
+- zod: A schema declaration and validation library for TypeScript.
+- date-fns. Date and time calculations
+
